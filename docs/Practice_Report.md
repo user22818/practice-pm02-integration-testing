@@ -5,6 +5,10 @@
 - Issue: https://github.com/user22818/practice-pm02-integration-testing/issues/1
 - Pull Request: https://github.com/user22818/practice-pm02-integration-testing/pull/1
 
+## Скриншоты
+### Граф коммитов
+![Git Graph](screenshots/git-graph.png)
+
 ### Результат выполнения тестов
 ![Test Results](screenshots/test-results.png)
 
