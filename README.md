@@ -54,6 +54,7 @@ node test_module_B.js
 🧩 Структура проекта
 
 practice-pm02-integration-testing/
+
 │
 
 ├── module_A/                # Фронтенд-часть приложения
