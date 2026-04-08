@@ -62,6 +62,7 @@ practice-pm02-integration-testing/
 │   ├── index.html           # Главная страница
 
 │   ├── css/
+
 │   │   └── style.css        # Стили (адаптивный дизайн, анимация)
 
 │   └── js/
