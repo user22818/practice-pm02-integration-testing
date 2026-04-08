@@ -55,24 +55,42 @@ node test_module_B.js
 
 practice-pm02-integration-testing/
 │
+
 ├── module_A/                # Фронтенд-часть приложения
+
 │   ├── index.html           # Главная страница
+
 │   ├── css/
 │   │   └── style.css        # Стили (адаптивный дизайн, анимация)
+
 │   └── js/
+
 │       └── script.js        # Логика работы викторины
+
 │
+
 ├── module_B/                # Модуль подсчёта баллов
+
 │   ├── scoring_logic.js     # Основная логика (calculateScore и др.)
+
 │   └── scoring_logic.txt    # Текстовое описание алгоритмов
+
 │
+
 ├── docs/                    # Документация по тестированию
+
 │   ├── TestCases.md         # 5 тест-кейсов для модуля Б
+
 │   ├── BUG_REPORT.md        # Описание найденного бага
+
 │   ├── Practice_Report.md   # Отчёт по практике
+
 │   └── screenshots/         # Скриншоты графа коммитов и тестов
+
 │
+
 ├── test_module_B.js         # Unit-тесты для проверки модуля Б
+
 └── README.md                # Этот файл
 
 🐞 Известные баги
