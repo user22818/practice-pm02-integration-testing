@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="screen active" id="start-screen">
+            <h1>Тестирование</h1>
+            <p>Проверь свои знания с помощью этого теста!</p>
+            <button id="start-btn">Начать тестирование</button>
+        </div>
+
+        <div class="screen" id="quiz-screen">
+
+            <div class="quiz-header">
+                <h2 id="question-text">текст вопроса беду здесь</h2>
+                <div class="quiz-info">
+                    <p>
+                        Вопрос <span id="current-question">1</span> из <span id="total-questions">5</span>
+                    </p>
+
+                    <p>
+                        Сетчик: <span id="score">0</span>
+                    </p>
+
+                </div>
+            </div>
+
+            <div id="answers-container" class="answers-container">
+                <!-- Кнопки добавляются через JS -->
+            </div>
+
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div> 
+            </div>
+        </div>
+    
+        <div id="results-screen" class="screen">
+            <h1>Результат теста</h1>
+
+            <div class="result-info">
+                <p>Ты прошёл <span id="final-score">0</span> из <span id="max-score">5</span></p>
+
+                <div id="result-message">Хорошая работа</div>
+            </div>
+
+            <button id="restart-btn">Повторить</button>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
